@@ -2,9 +2,8 @@
 
 require_once("config.php");
 
-$sql = new Sql();
-
-$results = $sql->select("SELECT * FROM usuarios");
-
-echo json_encode($results);
+// ******************************* BUSCAR USUARIO PELO ID ***********************************
+//$usuarios = new Usuarios();
+//$usuarios->loadUserById(2);
+//echo $usuarios;
 
